@@ -89,7 +89,10 @@
 //         console.log("Not found")
 // }
 
-
+// reverse string
+// palidrome
+// reverse number
+// xor and not bitwise
 
 let y  = "helloworld";
 
