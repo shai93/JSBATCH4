@@ -67,7 +67,7 @@
   
 //   let z = "one";
 //   // console.log(x.z)
-//   console.log(x[z])
+//   console.log(x[z])  //x["one"]
 
 
 
