@@ -1,6 +1,7 @@
+
 // DOM = Document object model
 // method  /action
-document.getElementById("js").innerHTML = "Hello Earth"
+document.getElementById("js").innerText = "<span>Hello Earth</span>"
 
 
 
