@@ -23,3 +23,11 @@ let {a,p} = {
 
 console.log(a,p)
 
+
+
+
+
+
+
+
+
