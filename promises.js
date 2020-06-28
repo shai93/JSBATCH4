@@ -64,6 +64,7 @@ getOrder().then(()=>{
     console.log("Code ended")
 }).catch(()=>{
 
+
 })
 
 
@@ -82,3 +83,40 @@ getOrder().then(()=>{
 // }).catch((msg)=>{
 //     console.log(msg)
 // })
+
+// Promise All
+function Promise1(){
+    return new Promise((resolve, reject)=>{
+        resolve("first")
+    })
+    // API
+}
+
+function Promise2(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(() => {
+            resolve("second")
+        }, 10000);
+    })
+    // API
+}
+
+function Promise3(){
+    return new Promise((resolve, reject)=>{
+        resolve("first")
+    })
+    // API
+}
+
+function Promise4(){
+    return new Promise((resolve, reject)=>{
+        resolve("resolve in promise 4")
+    })
+    // API
+}
+
+Promise.all([Promise1(), Promise2(), Promise3(), Promise4()]).then(()=>{
+    console.log("All")
+}).catch((e)=>{
+    console.log(e)
+})  
